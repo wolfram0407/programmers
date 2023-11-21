@@ -8,7 +8,6 @@ public class Solution {
             String temp = a.charAt(x)+"";
             answer += Integer.parseInt(temp);  
         }        
-
         return answer;
     }
 }
