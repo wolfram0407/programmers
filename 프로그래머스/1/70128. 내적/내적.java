@@ -1,9 +1,6 @@
 class Solution {
     public int solution(int[] a, int[] b) {
-        int answer = 0;
-        for(int x=0;x<a.length;x++){
-            answer += a[x] * b[x];
-        }
+        int answer = 1234567890;
         return answer;
     }
 }
