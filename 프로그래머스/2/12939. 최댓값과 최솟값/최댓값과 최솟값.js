@@ -1,6 +1,9 @@
 function solution(s) {
     const arr = s.split(" ")
  
+    
+    return Math.min(...arr)+' '+Math.max(...arr);
+    /*
     let max = -Number.MAX_SAFE_INTEGER;
     let min = Number.MAX_SAFE_INTEGER;
     arr.map((i)=>{
@@ -13,4 +16,5 @@ function solution(s) {
     })
     var answer = min+' '+max;
     return answer;
+    */
 }
